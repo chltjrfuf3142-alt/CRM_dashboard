@@ -1,0 +1,13 @@
+{
+  "sessionCount": 3,
+  "lastSession": {
+    "startedAt": "2026-03-18T06:24:55.918Z",
+    "platform": "claude",
+    "level": "Dynamic"
+  },
+  "currentFeature": "crm-foundation",
+  "phase": "completed",
+  "planDocument": "docs/01-plan/features/crm-foundation.plan.md",
+  "designDocument": "docs/02-design/features/crm-foundation.design.md",
+  "matchRate": 90
+}

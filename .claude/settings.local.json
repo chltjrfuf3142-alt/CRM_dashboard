@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(bkit:bkit)",
+      "Bash(cd \"C:\\\\Users\\\\user\\\\Desktop\\\\ax_master_coding\\\\personal_project\\\\CRM_dashboard\" && python3 -c \"\nimport zipfile, xml.etree.ElementTree as ET\n\nwith zipfile.ZipFile\\('GlobalBuyerCRM_Spec.docx', 'r'\\) as z:\n    with z.open\\('word/document.xml'\\) as f:\n        tree = ET.parse\\(f\\)\n        root = tree.getroot\\(\\)\n        ns = {'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}\n        paragraphs = root.findall\\('.//w:p', ns\\)\n        text_lines = []\n        for p in paragraphs:\n            texts = p.findall\\('.//w:t', ns\\)\n            line = ''.join\\(t.text or '' for t in texts\\)\n            if line.strip\\(\\):\n                text_lines.append\\(line\\)\n        print\\('\\\\n'.join\\(text_lines\\)\\)\n\")",
+      "Skill(bkit:pdca)",
+      "Bash(cd \"C:/Users/user/Desktop/ax_master_coding/personal_project/CRM_dashboard\" && node --version && npm --version)",
+      "Bash(cd \"C:/Users/user/Desktop/ax_master_coding/personal_project/CRM_dashboard\" && npm create vite@latest . -- --template react-ts --yes 2>&1)",
+      "Bash(cd \"C:/Users/user/Desktop/ax_master_coding/personal_project/CRM_dashboard\" && echo \"\" | npm create vite@latest . -- --template react-ts 2>&1)",
+      "Bash(cd \"C:/Users/user/Desktop/ax_master_coding/personal_project/CRM_dashboard\" && npx create-vite@latest --template react-ts . 2>&1 || true)",
+      "Bash(cd \"C:/Users/user/Desktop/ax_master_coding/personal_project/CRM_dashboard\" && npm init -y && npm pkg set name=\"global-buyer-crm\" version=\"1.0.0\" description=\"Global Buyer CRM Dashboard - 해외영업 포트폴리오\")",
+      "Bash(cd \"C:/Users/user/Desktop/ax_master_coding/personal_project/CRM_dashboard\" && npm install --save-dev vite @vitejs/plugin-react typescript @types/react @types/react-dom 2>&1 | tail -5)",
+      "Bash(cd \"C:/Users/user/Desktop/ax_master_coding/personal_project/CRM_dashboard\" && npm install react react-dom react-router-dom zustand @tanstack/react-query @hello-pangea/dnd recharts date-fns ai @ai-sdk/openai sonner clsx tailwind-merge 2>&1 | tail -5)",
+      "Bash(cd \"C:/Users/user/Desktop/ax_master_coding/personal_project/CRM_dashboard\" && npm install --save-dev tailwindcss postcss autoprefixer @types/react-big-calendar 2>&1 | tail -3 && npx tailwindcss init -p 2>&1)",
+      "Bash(cd \"C:/Users/user/Desktop/ax_master_coding/personal_project/CRM_dashboard\" && npm install --save-dev tailwindcss postcss autoprefixer @types/react-big-calendar 2>&1 | tail -3)",
+      "Bash(ls \"C:/Users/user/Desktop/ax_master_coding/personal_project/CRM_dashboard/node_modules/.package-lock.json\" 2>/dev/null || ls \"C:/Users/user/Desktop/ax_master_coding/personal_project/CRM_dashboard/node_modules/@tailwindcss/\" 2>/dev/null || echo \"checking tailwind v4...\"\nnode -e \"const p = require\\('C:/Users/user/Desktop/ax_master_coding/personal_project/CRM_dashboard/node_modules/tailwindcss/package.json'\\); console.log\\('tailwind version:', p.version\\); console.log\\('exports keys:', Object.keys\\(p.exports || {}\\).slice\\(0,10\\)\\)\")",
+      "Bash(cd \"C:/Users/user/Desktop/ax_master_coding/personal_project/CRM_dashboard\" && npm install --save-dev @tailwindcss/vite 2>&1 | tail -3)",
+      "Bash(cd \"C:/Users/user/Desktop/ax_master_coding/personal_project/CRM_dashboard\" && npm install --save-dev @tailwindcss/vite --legacy-peer-deps 2>&1 | tail -5)",
+      "Bash(cd \"C:/Users/user/Desktop/ax_master_coding/personal_project/CRM_dashboard\" && npm run build 2>&1)",
+      "Bash(node -e \"const p = require\\('C:/Users/user/Desktop/ax_master_coding/personal_project/CRM_dashboard/node_modules/ai/package.json'\\); console.log\\(JSON.stringify\\(Object.keys\\(p.exports || {}\\).filter\\(k => k.includes\\('react'\\)\\)\\)\\)\")",
+      "Bash(node -e \"const ai = require\\('C:/Users/user/Desktop/ax_master_coding/personal_project/CRM_dashboard/node_modules/ai/dist/index.js'\\); console.log\\(Object.keys\\(ai\\).filter\\(k => k.includes\\('ompletion'\\) || k.includes\\('Chat'\\) || k.includes\\('use'\\)\\)\\)\")",
+      "Bash(cd \"C:/Users/user/Desktop/ax_master_coding/personal_project/CRM_dashboard\" && npm install @ai-sdk/react --legacy-peer-deps 2>&1 | tail -3)",
+      "Bash(cd \"C:\\\\Users\\\\user\\\\Desktop\\\\ax_master_coding\\\\personal_project\\\\CRM_dashboard\" && npm install zod@^4 --legacy-peer-deps 2>&1 | tail -5)",
+      "Bash(cd \"C:\\\\Users\\\\user\\\\Desktop\\\\ax_master_coding\\\\personal_project\\\\CRM_dashboard\" && npm run build 2>&1 | tail -20)",
+      "Bash(cd \"C:\\\\Users\\\\user\\\\Desktop\\\\ax_master_coding\\\\personal_project\\\\CRM_dashboard\" && npm run build 2>&1 | grep -E \"Error|error|failed|Cannot\" | head -20)",
+      "Bash(cd \"C:\\\\Users\\\\user\\\\Desktop\\\\ax_master_coding\\\\personal_project\\\\CRM_dashboard\" && npm install react-is --legacy-peer-deps 2>&1 | tail -3 && npm run build 2>&1 | grep -E \"✓|✗|Error|error|built|dist\" | head -20)",
+      "Bash(cd \"C:\\\\Users\\\\user\\\\Desktop\\\\ax_master_coding\\\\personal_project\\\\CRM_dashboard\" && npx tsc --noEmit 2>&1 | head -40)",
+      "Bash(cd \"C:\\\\Users\\\\user\\\\Desktop\\\\ax_master_coding\\\\personal_project\\\\CRM_dashboard\" && start cmd /k \"npm run dev\")",
+      "Bash(find \"C:\\\\Users\\\\user\\\\Desktop\\\\ax_master_coding\\\\personal_project\\\\CRM_dashboard\" -type f -name \"*.tsx\" -o -name \"*.ts\" -o -name \"*.json\" -o -name \".env*\" 2>/dev/null | head -100)",
+      "Bash(vercel --version 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\user\\\\Desktop\\\\ax_master_coding\\\\personal_project\\\\CRM_dashboard\" && start cmd /k \"vercel dev\")"
+    ]
+  }
+}

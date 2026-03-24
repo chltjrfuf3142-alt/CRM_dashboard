@@ -1,0 +1,458 @@
+{
+  "version": "2.0",
+  "lastUpdated": "2026-03-18T07:46:56.889Z",
+  "activeFeatures": [
+    "CRM_dashboard",
+    "sample-data",
+    "data",
+    "stores",
+    "layout",
+    "dashboard",
+    "buyers",
+    "pipeline",
+    "meetings",
+    "api",
+    "crm-foundation"
+  ],
+  "primaryFeature": "CRM_dashboard",
+  "features": {
+    "CRM_dashboard": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-18T06:12:05.651Z",
+        "lastUpdated": "2026-03-18T07:46:56.889Z"
+      },
+      "lastFile": "C:\\Users\\user\\Desktop\\ax_master_coding\\personal_project\\CRM_dashboard\\vite.config.ts"
+    },
+    "sample-data": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-18T06:13:41.356Z",
+        "lastUpdated": "2026-03-18T06:13:41.356Z"
+      },
+      "lastFile": "C:\\Users\\user\\Desktop\\ax_master_coding\\personal_project\\CRM_dashboard\\src\\lib\\sample-data\\index.ts"
+    },
+    "data": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-18T06:13:49.098Z",
+        "lastUpdated": "2026-03-18T06:14:21.723Z"
+      },
+      "lastFile": "C:\\Users\\user\\Desktop\\ax_master_coding\\personal_project\\CRM_dashboard\\src\\lib\\data\\index.ts"
+    },
+    "stores": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-18T06:14:38.461Z",
+        "lastUpdated": "2026-03-18T07:27:45.515Z"
+      },
+      "lastFile": "C:\\Users\\user\\Desktop\\ax_master_coding\\personal_project\\CRM_dashboard\\src\\stores\\useDealStore.ts"
+    },
+    "layout": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-18T06:15:05.916Z",
+        "lastUpdated": "2026-03-18T06:15:11.102Z"
+      },
+      "lastFile": "C:\\Users\\user\\Desktop\\ax_master_coding\\personal_project\\CRM_dashboard\\src\\components\\layout\\AppLayout.tsx"
+    },
+    "dashboard": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-18T06:15:23.243Z",
+        "lastUpdated": "2026-03-18T06:15:32.307Z"
+      },
+      "lastFile": "C:\\Users\\user\\Desktop\\ax_master_coding\\personal_project\\CRM_dashboard\\src\\features\\dashboard\\BuyerDistributionChart.tsx"
+    },
+    "buyers": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-18T06:15:43.587Z",
+        "lastUpdated": "2026-03-18T06:16:28.696Z"
+      },
+      "lastFile": "C:\\Users\\user\\Desktop\\ax_master_coding\\personal_project\\CRM_dashboard\\src\\features\\buyers\\BuyerDetailPanel.tsx"
+    },
+    "pipeline": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-18T06:16:40.484Z",
+        "lastUpdated": "2026-03-18T06:16:58.805Z"
+      },
+      "lastFile": "C:\\Users\\user\\Desktop\\ax_master_coding\\personal_project\\CRM_dashboard\\src\\features\\pipeline\\DealForm.tsx"
+    },
+    "meetings": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-18T06:17:15.778Z",
+        "lastUpdated": "2026-03-18T06:17:15.778Z"
+      },
+      "lastFile": "C:\\Users\\user\\Desktop\\ax_master_coding\\personal_project\\CRM_dashboard\\src\\features\\meetings\\MeetingForm.tsx"
+    },
+    "api": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-18T06:19:28.492Z",
+        "lastUpdated": "2026-03-18T07:41:55.641Z"
+      },
+      "lastFile": "C:\\Users\\user\\Desktop\\ax_master_coding\\personal_project\\CRM_dashboard\\api\\generate-email.ts"
+    },
+    "crm-foundation": {
+      "phase": "act",
+      "phaseNumber": 5,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-03-18T07:28:44.730Z",
+        "lastUpdated": "2026-03-18T07:28:44.731Z"
+      },
+      "previousPhase": "check",
+      "autoAdvanced": true
+    }
+  },
+  "pipeline": {
+    "currentPhase": 1,
+    "level": "Dynamic",
+    "phaseHistory": []
+  },
+  "session": {
+    "startedAt": "2026-03-18T05:37:40.672Z",
+    "onboardingCompleted": false,
+    "lastActivity": "2026-03-18T07:46:56.889Z"
+  },
+  "history": [
+    {
+      "timestamp": "2026-03-18T06:12:05.652Z",
+      "feature": "CRM_dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:12:49.311Z",
+      "feature": "CRM_dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:13:41.356Z",
+      "feature": "sample-data",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:13:49.098Z",
+      "feature": "data",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:13:58.545Z",
+      "feature": "data",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:14:08.344Z",
+      "feature": "data",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:14:16.165Z",
+      "feature": "data",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:14:21.723Z",
+      "feature": "data",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:14:31.118Z",
+      "feature": "CRM_dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:14:38.461Z",
+      "feature": "stores",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:14:48.475Z",
+      "feature": "stores",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:14:55.517Z",
+      "feature": "stores",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:15:05.916Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:15:11.102Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:15:23.243Z",
+      "feature": "dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:15:32.307Z",
+      "feature": "dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:15:43.587Z",
+      "feature": "buyers",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:16:05.785Z",
+      "feature": "buyers",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:16:28.696Z",
+      "feature": "buyers",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:16:40.484Z",
+      "feature": "pipeline",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:16:58.805Z",
+      "feature": "pipeline",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:17:15.778Z",
+      "feature": "meetings",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:17:35.781Z",
+      "feature": "CRM_dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:17:59.988Z",
+      "feature": "CRM_dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:18:27.471Z",
+      "feature": "CRM_dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:18:49.164Z",
+      "feature": "CRM_dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:19:16.923Z",
+      "feature": "CRM_dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:19:28.492Z",
+      "feature": "api",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:19:33.656Z",
+      "feature": "CRM_dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:19:39.626Z",
+      "feature": "CRM_dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:23:10.198Z",
+      "feature": "CRM_dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:23:11.840Z",
+      "feature": "CRM_dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T06:23:14.062Z",
+      "feature": "CRM_dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T07:26:41.337Z",
+      "feature": "api",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T07:26:45.721Z",
+      "feature": "api",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T07:26:50.558Z",
+      "feature": "CRM_dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T07:26:56.828Z",
+      "feature": "CRM_dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T07:27:02.471Z",
+      "feature": "CRM_dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T07:27:12.243Z",
+      "feature": "CRM_dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T07:27:16.420Z",
+      "feature": "CRM_dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T07:27:27.233Z",
+      "feature": "CRM_dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T07:27:35.708Z",
+      "feature": "CRM_dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T07:27:45.515Z",
+      "feature": "stores",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T07:28:44.731Z",
+      "feature": "crm-foundation",
+      "phase": "act",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T07:41:55.641Z",
+      "feature": "api",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T07:45:13.318Z",
+      "feature": "CRM_dashboard",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-03-18T07:46:56.889Z",
+      "feature": "CRM_dashboard",
+      "phase": "do",
+      "action": "updated"
+    }
+  ]
+}
