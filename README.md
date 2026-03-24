@@ -4,7 +4,7 @@
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript)
-![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite)
+![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?logo=tailwindcss)
 
 ---
@@ -55,7 +55,7 @@
 
 | 분류 | 기술 |
 |------|------|
-| Frontend | React 19, TypeScript 5.9, Vite 8 |
+| Frontend | React 19, TypeScript 5.9, Vite 7 |
 | Styling | Tailwind CSS v4 |
 | 상태 관리 | Zustand 5 (UI state), TanStack Query 5 (서버 상태) |
 | 드래그 앤 드롭 | @hello-pangea/dnd (react-beautiful-dnd fork, React 19 호환) |
